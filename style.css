@@ -1,6 +1,10 @@
 *{background-color:lightsteelblue}
 
-*{margin-color:black;}
+*{
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+}
 
 h1{background-color:brown;}
 h1{border: 3px solid;}
