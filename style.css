@@ -1,5 +1,7 @@
 *{background-color:lightsteelblue}
-#h1{
+<style>
+h1{
   background-color: brown;
   border: 3px solid;
 }
+</style>
