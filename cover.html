@@ -3,7 +3,12 @@
 
  </head>
  <body>
-  <style> body {
+    <input type="checkbox" id="check">
+    <label for="check">
+        
+    </label>
+  <style>
+     body {
             font-family: "roboto" , sans-serif;
         }
         *{
@@ -18,6 +23,32 @@
             width: 250px;
             height: 100%;
             background: #042331;
+        }
+        .sidebar header{
+            font-size: 22px;
+            color: white;
+            text-align: center;
+            line-height: 70px;
+            background: #063146;
+            user-select: none;
+        }
+        .sidebar ul a{
+            display: block;
+            height: 100%;
+            width:100%;
+            line-height: 65px;
+            font-size: 20px;
+            color: white;
+            padding-left: 40px;
+            box-sizing: border-box;
+            border-top: 1px solid rgba(255,255,255,.1);
+            border-bottom: 1px solid black;
+        }
+        ul li:hover a{
+            padding-left: 50px;
+        }
+        .sidebar ul a{
+            margin-right: 16px;
         }
         <div class="sidebar">
 			<header>MAHESH BABU</header>
